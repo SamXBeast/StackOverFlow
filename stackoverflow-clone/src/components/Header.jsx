@@ -28,7 +28,7 @@ const Header = ({ onSearch }) => {
           {/* Logo Section */}
           <div className="flex items-center gap-2 cursor-pointer" onClick={handleLogoClick}>
             <img
-              src="../src/assets/logo.png" // Replace with your logo path
+              src="/logo.png" // Replace with your logo path
               alt="StackOverflow Logo"
               className="h-8 w-8"
             />
