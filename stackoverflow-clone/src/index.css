@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    @apply bg-gray-100;
+  }
+  
+  header {
+    @apply sticky top-0 bg-white shadow z-10;
+  }
